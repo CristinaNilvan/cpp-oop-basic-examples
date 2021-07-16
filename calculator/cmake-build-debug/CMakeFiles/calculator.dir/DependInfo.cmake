@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/crist/OneDrive/Desktop/Github/calculator/main.cpp" "C:/Users/crist/OneDrive/Desktop/Github/calculator/cmake-build-debug/CMakeFiles/calculator.dir/main.cpp.obj"
+  "D:/Code/git/cpp-oop-basic-examples/calculator/main.cpp" "D:/Code/git/cpp-oop-basic-examples/calculator/cmake-build-debug/CMakeFiles/calculator.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

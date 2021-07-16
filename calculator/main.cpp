@@ -3,31 +3,31 @@
 using namespace std;
 
 class Calculator {
-    private:
-        float firstNumber;
-        float secondNumber;
+private:
+    float firstNumber;
+    float secondNumber;
 
-    public:
-        Calculator(float firstNumber, float secondNumber) {
-            this->firstNumber = firstNumber;
-            this->secondNumber = secondNumber;
-        }
+public:
+    Calculator(float firstNumber, float secondNumber) {
+        this->firstNumber = firstNumber;
+        this->secondNumber = secondNumber;
+    }
 
-        float add() {
-            return firstNumber + secondNumber;
-        }
+    float add() {
+        return firstNumber + secondNumber;
+    }
 
-        float subtract() {
-            return firstNumber - secondNumber;
-        }
+    float subtract() {
+        return firstNumber - secondNumber;
+    }
 
-        float multiply() {
-            return firstNumber * secondNumber;
-        }
+    float multiply() {
+        return firstNumber * secondNumber;
+    }
 
-        float divide() {
-            return firstNumber / secondNumber;
-        }
+    float divide() {
+        return firstNumber / secondNumber;
+    }
 
     ~Calculator() = default;
 };
