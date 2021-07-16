@@ -4,12 +4,12 @@
 using namespace std;
 
 class Student {
-  private:
+private:
     string name;
     int labMark;
     int courseMark;
 
-  public:
+public:
     Student(string name, float labMark, float courseMark) {
         this->name = name;
         this->labMark = labMark;
@@ -31,7 +31,7 @@ class Student {
         return 0.4 * labMark + 0.6 * courseMark;
     }
 
-  ~Student() = default;
+    ~Student() = default;
 };
 
 int main() {
