@@ -1,0 +1,3 @@
+C:/Users/crist/OneDrive/Desktop/Github/calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/crist/OneDrive/Desktop/Github/calculator/cmake-build-debug/CMakeFiles/calculator.dir
+C:/Users/crist/OneDrive/Desktop/Github/calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
