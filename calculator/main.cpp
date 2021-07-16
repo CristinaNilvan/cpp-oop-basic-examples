@@ -46,7 +46,7 @@ int main() {
     cout << "Multiply the numbers : " << result << endl;
 
     result = object.divide();
-    cout << "Devide the numbers : " << result << endl;
+    cout << "Divide the numbers : " << result << endl;
 
     return 0;
 }
