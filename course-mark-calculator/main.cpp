@@ -10,10 +10,10 @@ class Student {
     int courseMark;
 
   public:
-    Student(string name, float firstMark,float secondMark) {
+    Student(string name, float labMark, float courseMark) {
         this->name = name;
-        this->labMark = firstMark;
-        this->courseMark = secondMark;
+        this->labMark = labMark;
+        this->courseMark = courseMark;
     }
 
     string GetName() {

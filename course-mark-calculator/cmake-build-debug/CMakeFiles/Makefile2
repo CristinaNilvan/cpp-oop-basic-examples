@@ -63,10 +63,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\crist\OneDrive\Desktop\Github\course-mark-calculator
+CMAKE_SOURCE_DIR = D:\Code\git\cpp-oop-basic-examples\course-mark-calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\crist\OneDrive\Desktop\Github\course-mark-calculator\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Code\git\cpp-oop-basic-examples\course-mark-calculator\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/course_mark_calculator.dir/clean
 CMakeFiles/course_mark_calculator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\course_mark_calculator.dir\build.make CMakeFiles/course_mark_calculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\course_mark_calculator.dir\build.make CMakeFiles/course_mark_calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\crist\OneDrive\Desktop\Github\course-mark-calculator\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target course_mark_calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\git\cpp-oop-basic-examples\course-mark-calculator\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target course_mark_calculator"
 .PHONY : CMakeFiles/course_mark_calculator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/course_mark_calculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\crist\OneDrive\Desktop\Github\course-mark-calculator\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\git\cpp-oop-basic-examples\course-mark-calculator\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/course_mark_calculator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\crist\OneDrive\Desktop\Github\course-mark-calculator\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\git\cpp-oop-basic-examples\course-mark-calculator\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/course_mark_calculator.dir/rule
 
 # Convenience name for target.

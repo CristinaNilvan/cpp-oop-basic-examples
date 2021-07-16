@@ -1,3 +1,3 @@
-C:/Users/crist/OneDrive/Desktop/Github/course-mark-calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/crist/OneDrive/Desktop/Github/course-mark-calculator/cmake-build-debug/CMakeFiles/course_mark_calculator.dir
-C:/Users/crist/OneDrive/Desktop/Github/course-mark-calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Code/git/cpp-oop-basic-examples/course-mark-calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Code/git/cpp-oop-basic-examples/course-mark-calculator/cmake-build-debug/CMakeFiles/course_mark_calculator.dir
+D:/Code/git/cpp-oop-basic-examples/course-mark-calculator/cmake-build-debug/CMakeFiles/edit_cache.dir

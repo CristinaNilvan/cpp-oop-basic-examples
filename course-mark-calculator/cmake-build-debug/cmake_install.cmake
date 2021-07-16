@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/crist/OneDrive/Desktop/Github/course-mark-calculator
+# Install script for directory: D:/Code/git/cpp-oop-basic-examples/course-mark-calculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/crist/OneDrive/Desktop/Github/course-mark-calculator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Code/git/cpp-oop-basic-examples/course-mark-calculator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
