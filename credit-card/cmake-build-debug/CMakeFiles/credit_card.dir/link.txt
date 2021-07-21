@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\credit_card.dir/objects.a
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\credit_card.dir/objects.a @CMakeFiles\credit_card.dir\objects1.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\credit_card.dir/objects.a -Wl,--no-whole-archive  -o credit_card.exe -Wl,--out-implib,libcredit_card.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\credit_card.dir\linklibs.rsp
