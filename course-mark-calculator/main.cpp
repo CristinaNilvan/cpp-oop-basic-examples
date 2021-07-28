@@ -6,12 +6,12 @@ using namespace std;
 class Student {
 private:
     string name;
-    int labMark;
-    int courseMark;
+    float labMark;
+    float courseMark;
 
 public:
     Student(string name, float labMark, float courseMark) {
-        this->name = name;
+        this->name = move(name);
         this->labMark = labMark;
         this->courseMark = courseMark;
     }
@@ -20,15 +20,18 @@ public:
         return name;
     }
 
-    int GetMark(int markNumber) {
+    float GetMark(int markNumber) const {
         if (markNumber == 1)
             return labMark;
         else
-            return courseMark;
+            if (markNumber == 2)
+                return courseMark;
+
+        return 0;
     }
 
-    float CalculateCourseTotal() {
-        return 0.4 * labMark + 0.6 * courseMark;
+    float CalculateCourseTotal() const {
+        return (float)(0.4 * labMark + 0.6 * courseMark);
     }
 
     ~Student() = default;
@@ -38,8 +41,8 @@ int main() {
     Student myStudent("Amanda Jones", 9, 8);
 
     string name = myStudent.GetName();
-    int firstMark = myStudent.GetMark(1);
-    int secondMark = myStudent.GetMark(2);
+    float firstMark = myStudent.GetMark(1);
+    float secondMark = myStudent.GetMark(2);
     float courseTotal = myStudent.CalculateCourseTotal();
 
     cout << "Name : " << name << endl;
